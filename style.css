@@ -1,0 +1,75 @@
+.headline {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.mapContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#map {
+  height: 50vh;
+  width: 100%;
+  margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: space-between;
+  align-content: stretch;
+  margin-top: 1em;
+}
+
+.formContainerUpload {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: space-between;
+  align-content: stretch;
+  margin-top: 1em;
+}
+
+#urlInput {
+  width: 100%;
+}
+
+#urlInputSubmit {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+#fileInput {
+  margin-right: -2em;
+  padding-right: 0;
+}
+
+label {
+  color: red;
+  margin-top: 0.3em;
+  margin-left: 0.1em;
+  margin-right: auto;
+  font-size: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+html {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SII Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 class="headline">SII OpenStreetMap</1>
+    <div class="mapContainer">
+        <div id="map"></div>
+        <div class="formContainer">
+            <input type="url" name="UrlInput" id="urlInput" placeholder="Enter a valid URL">
+            <input type="button" value="Load GeoJSON from URL" id="urlInputSubmit" onclick="submitForm()">
+        </div>
+        <label for="urlInput" id="urlLabel"></label>
+
+        <div class="formContainerUpload">
+            <p>Or upload your GeoJSON file: </p>
+            <input type="file" name="FileInput" id="fileInput" accept=".json, .geojson, .txt">
+        </div>
+        <label for="urlInput" id="urlLabel"></label>
+    </div>
+
+    
+    
+
+</body>
+</html>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+crossorigin=""></script>
+
+<script src="map.js"></script>
+
+<script src="loadGeoJsonFiles.js"></script>
