@@ -1,5 +1,5 @@
 SII Assignment 06
 
-GitHub repository: https://github.com/axioscoding/SIIAssignment6
+GitHub repository: https://github.com/wittrockscode/SIIAssignment6
 
-Live example: https://axioscoding.github.io/SIIAssignment6/
+Live example: https://wittrockscode.github.io/SIIAssignment6/
